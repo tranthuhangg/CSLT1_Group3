@@ -22,8 +22,10 @@ elif letter == "B":
 else:
     print("Invalid note name.")
 
-# Adjust the frequency based on the octave number
-x = 2 ** (4 - octave)
-frequency = frequency/x
+# Calculate the adjustment factor based on the octave number
+adjustment_factor = 2 ** (4 - octave)
+
+# Adjust the frequency by dividing it by the adjustment factor
+frequency = frequency/adjustment_factor
 
 print("The frequency of", note, "is", frequency, "Hz.")

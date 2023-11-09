@@ -6,3 +6,4 @@ elif letter == 'y':
     print("Sometimes 'y' is a vowel, and sometimes 'y' is a consonant.")
 else:
     print("The letter is a consonant.")
+
